@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/wastatus"
+        app:showAsAction="ifRoom"
+        android:title="Privacy Policy"
+        android:icon="@drawable/wa_saver">
+
+    </item>
+    <item
+        android:id="@+id/rate"
+        android:icon="@drawable/ic_rate_review_black_24dp"
+        android:title="Rate">
+    </item>
+    <item
+        android:id="@+id/privacy_policy"
+        android:icon="@drawable/ic_privacy_policy"
+        android:title="Privacy Policy">
+    </item>
+    <item
+        android:id="@+id/shareApp"
+        android:icon="@drawable/ic_share_white_24dp"
+        android:title="Share">
+
+    </item>
+</menu>

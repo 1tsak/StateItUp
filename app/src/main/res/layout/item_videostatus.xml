@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="160dp"
+    android:layout_height="240dp"
+    android:layout_margin="1dp"
+    cardview:cardCornerRadius="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/videostatus_cont"
+            android:layout_width="match_parent"
+            android:background="#161616"
+            android:layout_height="200dp">
+
+        </ImageView>
+
+        <include
+            android:layout_width="match_parent"
+            layout="@layout/toolbar"
+            android:layout_margin="1dp"
+            android:layout_height="35dp">
+
+        </include>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

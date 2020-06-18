@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "409177576232",
+    "firebase_url": "https://all-in-one-shayari-2.firebaseio.com",
+    "project_id": "all-in-one-shayari-2",
+    "storage_bucket": "all-in-one-shayari-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409177576232:android:5c10670e3ab02046a1361d",
+        "android_client_info": {
+          "package_name": "com.allinone.shayari"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409177576232-9q7pufl4m46rrgdkt83qi3mifhjb4uap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbTcqZWQP1bn8au4msHGFe1GfzlBpEgNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409177576232-9q7pufl4m46rrgdkt83qi3mifhjb4uap.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

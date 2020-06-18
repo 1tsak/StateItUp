@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?android:colorBackground"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="3dp"
+    android:layout_margin="3.5dp"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/vidsaver_cont"
+            android:adjustViewBounds="true"
+            android:minHeight="100dp"
+            android:layout_width="match_parent"
+            android:background="#F7F1F1"
+            android:scaleType="centerCrop"
+            android:layout_height="wrap_content"
+            android:contentDescription="TODO">
+
+        </ImageView>
+
+        <include
+            android:layout_width="match_parent"
+            layout="@layout/toolbar"
+            android:layout_margin="1dp"
+            android:layout_height="35dp">
+
+        </include>
+</LinearLayout>
+</androidx.cardview.widget.CardView>
+
